@@ -1,0 +1,65 @@
+.container {
+    background-image: url('https://img.freepik.com/premium-vector/abstract-luxury-lavender-liquid-watercolor-background-with-golden-cracks_353323-457.jpg?w=740');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .signup-form {
+    /* background-color: rgba(195, 155, 196, 0.8); */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="password"],
+  .form-group input[type="tel"],
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+
+  .form-group .error-message {
+    color: red;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+
+  .form-group .error-message::before {
+    content: "⚠ ";
+    display: inline-block;
+  }
+
+  .form-group.error input {
+    border-color: red;
+  }
+
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
